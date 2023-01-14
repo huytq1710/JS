@@ -52,3 +52,10 @@ const obj = { a: 23, b: 27,c: 14 };
 ({a,b} = obj);
 console.log(a,b);
 
+const arr=[7,8,9];
+const badNewArr = [1,2,ar[0],arr[1],arr[2]];
+console.log(badNewArr);
+const newArr = [1,2,...arr];
+
+const newMenu = [...restaurant.mainMenu, "Bánh"];
+console.log(newMenu);
